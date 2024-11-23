@@ -26,17 +26,17 @@
                     </div>
 
                 <div class="mb-3">
-                <label for="validationCustom01" class="form-label"> Pengarang </label>
+                <label for="validationCustom02" class="form-label"> Pengarang </label>
                 <input type="text" class="form-control" id="" value="" name="pengarang" required>
                     </div>
 
                 <div class="mb-3">
-                  <label for="validationCustom01" class="form-label"> Tahun Terbit </label>
-                <input type="text" class="form-control" id="" value="" name="tahun" required>
+                  <label for="validationNumber" class="form-label"> Tahun Terbit </label>
+                  <input type="text" class="form-control" id="" value="" name="tahun" required>
                     </div>
 
                 <div class="mb-3">
-                <label for="validationCustom01" class="form-label"> Kategori </label>
+                <label for="validationCustom03" class="form-label"> Kategori </label>
                 <input type="text" class="form-control" id="" value="" name="kategori" required>
                     </div>
 

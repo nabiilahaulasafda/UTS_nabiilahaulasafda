@@ -35,21 +35,21 @@ $data = mysqli_fetch_array($edit);
         <form action="update.php" method="POST">
             <input type="hidden" name="id" value="<?=$data['id']?>">
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"> Judul Buku </label>
+                    <label for="validationCustom01" class="form-label"> Judul Buku </label>
                     <input type="text" readonly value="<?=$data['judul']?>" name="judul" class="form-control" id="">
                 </div>
 
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"> Pengarang </label>
+                    <label for="validationCustom02" class="form-label"> Pengarang </label>
                     <input type="text" value="<?=$data['pengarang']?>" name="pengarang" class="form-control" id="">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"> Tahun Terbit </label>
-                    <span class="input-number" type="4"> </span>
+                    <label for="validationNumber" class="form-label"> Tahun Terbit </label>
+                    <span class="input-number-">   </span>
                     <input type="text" value="<?=$data['tahun']?>" name="tahun" class="form-control" id="">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"> Kategori </label>
+                    <label for="validationCustom03" class="form-label"> Kategori </label>
                     <input type="text" value="<?=$data['kategori']?>" name="kategori" class="form-control" id="">
                 </div>
                     <button type="submit" class="btn btn-primary">update</button>
