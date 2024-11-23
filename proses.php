@@ -34,7 +34,7 @@ $proses = mysqli_query($koneksi, $simpan);
       <div class="col-8 m-auto">
         <div class="card">
         <div class="card-header bg-dark-subtle">
-            <h3 class="float-start"> Daftar Buku </h3>
+            <h3 class="float-start"> DAFTAR BUKU </h3>
         </div>
 
         <div class="card-body">

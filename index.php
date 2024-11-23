@@ -13,11 +13,8 @@
     <div class="row mt-5">
       <div class="col-8 m-auto">
         <div class="card">
-            <div class="card-header bg-dark-subtle">
-                <h2 class="fw-bold fs-2 text-start" >Daftar Buku</h2>
-                <span class="float-end btn btn-outline-dark text-dark btn-sm"> 
-                    <a href="form.php" > <i class="fa-solid fa-user-plus"></i> Add </a>
-                </span>
+            <div class="card-header bg-info-subtle">
+                <h2 class="fw-bold fs-2 text-center" >DAFTAR BUKU</h2>
             </div>
 
                 <div class="card-body">
@@ -29,6 +26,9 @@
                             <th scope="col"> Pengarang </th>
                             <th scope="col"> Tahun Terbit </th>
                             <th scope="col"> Kategori </th>
+                            <th> <span class="float-end btn btn-outline-dark text-dark btn-sm"> 
+                                    <a href="form.php" > <i class="fa-solid fa-user-plus"></i> Add </a>
+                                 </span></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -82,10 +82,6 @@
 
                     </tbody>
                     </table>      
-	</div>
-</body>
-</html>
-
             </div>
         </div>
     </div>
