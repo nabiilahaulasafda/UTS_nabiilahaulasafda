@@ -45,8 +45,8 @@ $data = mysqli_fetch_array($edit);
                 </div>
                 <div class="mb-3">
                     <label for="validationNumber" class="form-label"> Tahun Terbit </label>
-                    <span class="input-number-">   </span>
-                    <input type="text" value="<?=$data['tahun']?>" name="tahun" class="form-control" id="">
+                    <span class="input-number" limitNumber="1-4">   </span>
+                    <input type="number" max="1-4" value="<?=$data['tahun']?>" name="tahun" class="form-control" id="">
                 </div>
                 <div class="mb-3">
                     <label for="validationCustom03" class="form-label"> Kategori </label>
