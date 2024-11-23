@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,23 +20,27 @@
 
         <div class="card-body">
         <form action="proses.php" method="POST">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"> Judul Buku </label>
-                    <input type="text" name="judul" class="form-control" id="">
-                </div>
+     
+                    <div class="mb-3">
+                <label for="validationCustom01" class="form-label"> Judul Buku </label>
+                <input type="text" class="form-control" id="" value="" name="judul" required>
+                    </div>
 
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"> Pengarang </label>
-                    <input type="text" name="pengarang" class="form-control" id="">
-                </div>
+                <label for="validationCustom01" class="form-label"> Pengarang </label>
+                <input type="text" class="form-control" id="" value="" name="pengarang" required>
+                    </div>
+
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"> Tahun Terbit </label>
-                    <input type="text" name="tahun" class="form-control" id="">
-                </div>
+                  <label for="validationCustom01" class="form-label"> Tahun Terbit </label>
+                <input type="text" class="form-control" id="" value="" name="tahun" required>
+                    </div>
+
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"> Kategori </label>
-                    <input type="text" name="kategori" class="form-control" id="">
-                </div>
+                <label for="validationCustom01" class="form-label"> Kategori </label>
+                <input type="text" class="form-control" id="" value="" name="kategori" required>
+                    </div>
+
                     <button type="submit" class="btn btn-primary">Add</button>
         </form>
         </div>
