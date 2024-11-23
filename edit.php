@@ -45,6 +45,7 @@ $data = mysqli_fetch_array($edit);
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label"> Tahun Terbit </label>
+                    <span class="input-number" type="4"> </span>
                     <input type="text" value="<?=$data['tahun']?>" name="tahun" class="form-control" id="">
                 </div>
                 <div class="mb-3">
