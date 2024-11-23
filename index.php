@@ -15,7 +15,7 @@
       <div class="col-8 m-auto">
         <div class="card">
         <div class="card-header bg-dark-subtle">
-            <h3 class="float-start"> Daftar Buku </h3>
+            <h2 class="text-center"> Daftar Buku </h2>
             <span class="float-end btn btn-outline-dark text-dark btn-sm"> 
                 <a href="form.php" > <i class="fa-solid fa-user-plus"></i> Add </a>
             </span>
@@ -71,7 +71,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                                <a href="hapus.php?xyz=<?=$data['id']?>" class="btn btn-danger">Hapus</a>
+                                <a href="hapus.php?nbs=<?=$data['id']?>" class="btn btn-danger">Hapus</a>
 
                             </div>
                             </div>
