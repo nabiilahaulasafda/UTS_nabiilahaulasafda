@@ -42,7 +42,6 @@
                             $nomor = 1;
                             foreach($proses as $data){
                         ?>
-
                         <tr>
                             <th scope="row"> <?=$nomor++?> </th>
                             <td> <?=$data['judul']?> </td>
@@ -83,6 +82,9 @@
 
                     </tbody>
                     </table>      
+	</div>
+</body>
+</html>
 
             </div>
         </div>
